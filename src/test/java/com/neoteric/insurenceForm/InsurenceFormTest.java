@@ -15,6 +15,13 @@ public class InsurenceFormTest {
         InsuredDetails insuredDetails=new InsuredDetails();
         insuredDetails.name="xxxxx";
         Address address=new Address();
+        address.faltNo="g1";
+        address.street="manaStreet";
+        address.landmark="Mana Street";
+        address.locality="community hall";
+        address.area="sardarpatelNagar";
+        address.pincode="500032";
+
         insuredDetails.address1=address;
         insuredDetails.city="hyd";
         insuredDetails.pin="500032";
